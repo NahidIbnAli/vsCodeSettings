@@ -1,10 +1,11 @@
 {
   // editor
-  "editor.fontFamily": "'Cascadia Code', 'Courier New', monospace",
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
   "editor.fontSize": 19,
-  "editor.fontLigatures": "'calt', 'ss01'",
+  "editor.fontLigatures": "true",
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -16,20 +17,21 @@
     ]
   },
   // cursor
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
   "editor.lineHeight": 1.5,
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  // theming
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.productIconTheme": "fluent-icons",
   //terminal
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Cascadia Code PL",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "tailwindCSS.emmetCompletions": true,
+  "terminal.integrated.lineHeight": 1.4,
   // terminal customization
   // "workbench.colorCustomizations": {
   //   "terminal.background": "#1D2021",
@@ -53,8 +55,11 @@
   //   "terminal.ansiWhite": "#A89984",
   //   "terminal.ansiYellow": "#FAC03B"
   // },
+  // javascript
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  },
-  "workbench.productIconTheme": "fluent-icons"
+  }
 }
+
+// "editor.fontFamily": "'Cascadia Code', 'Courier New', monospace",
+// "editor.fontLigatures": "'calt', 'ss01'",
